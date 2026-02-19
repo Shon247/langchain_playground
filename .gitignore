@@ -5,6 +5,14 @@
     .Python
     venv/
     env/
+    .venv/
+    langchain-book/
+
+    # IDE / tool settings
+    .claude/
+
+    # Keep dependency file
+    !requirements.txt
     
     # Jupyter
     .ipynb_checkpoints/
