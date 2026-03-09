@@ -5,6 +5,19 @@
     .Python
     venv/
     env/
+    .venv/
+    langchain-book/
+
+    # Secrets
+    config.py
+    .env
+    **/api_keys.txt
+
+    # IDE / tool settings
+    .claude/
+
+    # Keep dependency file
+    !requirements.txt
     
     # Jupyter
     .ipynb_checkpoints/

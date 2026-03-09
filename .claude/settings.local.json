@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(pip3 --version:*)",
+      "Bash(brew install:*)",
+      "Bash(source:*)",
+      "Bash(conda env list:*)",
+      "Bash(~/miniconda3/bin/conda env list:*)",
+      "Bash(~/anaconda3/bin/conda env list:*)",
+      "Bash(py -3.11:*)",
+      "Bash(uv venv:*)",
+      "Bash(uv pip install:*)",
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(\"/c/Users/shonm/OneDrive/Continuous Learning/genai_with_langchain/langchain-book/Scripts/python.exe\" -m jupyter kernelspec list)",
+      "Bash(\"/c/Users/shonm/OneDrive/Continuous Learning/genai_with_langchain/langchain-book/Scripts/python.exe\" -m ipykernel install:*)",
+      "Skill(claude-developer-platform)",
+      "Skill(claude-developer-platform:*)"
+    ]
+  }
+}
